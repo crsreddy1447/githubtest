@@ -20,7 +20,7 @@ namespace Contoso.WebApi
 
                     config.AddEnvironmentVariables();
 
-                    // ******************************************
+                    // *******************************************
                     // Connecting to Azure Key Vault.
                     config.AddAzureKeyVault(
                     KeyVaultConfig.GetKeyVaultEndpoint(buildConfig["KeyVaultName"]),
